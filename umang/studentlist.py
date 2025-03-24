@@ -1,3 +1,5 @@
+import json
+
 maindata=[]
 data={}
 skils=[]
@@ -58,5 +60,4 @@ listdata.append(qualificationdict)
 data["qualification"]=listdata
 maindata.append(data)
 
-
-print(maindata)
+print(json.dumps(maindata,indent=4))
