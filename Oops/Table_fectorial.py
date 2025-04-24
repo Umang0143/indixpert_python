@@ -11,7 +11,7 @@ class Table:
     def factorial(self):
         num=int(input("Enter your number:- "))
         fact=num
-        for n in range(num-1,1,-1):
+        for n in range(num-1,1,-1):    # (start, stop, step(decrement karna he )) 
             num *=n
         print(f"factoril {fact} = {num}")
 
